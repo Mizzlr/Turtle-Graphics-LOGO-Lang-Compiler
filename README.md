@@ -93,3 +93,25 @@ FD SQRT(100 * :SIDE + :SIDE)
 
 # Arithmetic Operators and Mathematical Functions
 All the basic arithmetic operators such as `+, -, *, /, %, ^` are supported. `%` is modulus and `^` exponentiation. Some inbuild math function are `SQRT(a)`, `MIN(a, b)`, `MAX(a, b)`, `RAND(a, b)`.
+
+# The REPL
+
+Steps to use this repo
+
+* Download or clone this repo
+* Install `cmd2` python module with `python -m pip install cmd2`.
+* To run the program, do `cd /path/to/root/of/this/project ; python logo/runtime/repl.py`
+
+The prompt pops up `logo[{count}]:>`
+
+
+There is a sample code in [samples/polygon.logo](samples/polygon.logo).
+* To load and compile this code, in the REPL execute `load samples/polygon.logo`
+* Type `ast` to see the compiled code
+* Type `Hexagon 100`, this draws hexagon of size 100
+* Type `RESET` or `CLEAR` or `HOME`, to recenter, clear or move turtle to home position
+* Type `REPEAT 5 [ FD 100; RT (360 / 5) ]` to draw a pentagon
+* Type up arrow to see prev commands.
+* Type `exit` or `quit` to quit.
+
+Happy Turtling ...
