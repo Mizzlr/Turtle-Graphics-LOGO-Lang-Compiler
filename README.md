@@ -7,7 +7,7 @@ This repo implements a [compiler](logo/compiler) and [runtime](logo/runtime) for
 The syntax may not be completely compatible with the original, as I have added certain features while removed certain original features. This is just a fun project for the Turtle Graphics with [REPL](logo/runtime/repl.py) for the UI.
 
 # Syntax
-`
+```
 # This is a comment, comments should be in fresh line only
 # RT is for right turn, 90 is the angle to turn right
 RT 90
@@ -77,5 +77,5 @@ FD SQRT(100 * :SIDE + :SIDE)
 # the order of evaluation
 
 
-`
+```
 
