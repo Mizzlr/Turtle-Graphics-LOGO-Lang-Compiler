@@ -76,6 +76,18 @@ FD SQRT(100 * :SIDE + :SIDE)
 # in brackets and also, enclose brackets to be clear about
 # the order of evaluation
 
-
 ```
+# LOGO instruction
+| Instruction | No. of Arguments | Description |
+|--- |--- |--- |
+| RT | 1  | Right Turn, argument is angle of turn. |
+| LT | 1  | Left Turn, argument is angle of turn. |
+| FD | 1  | Move Forward, argument is length to move. |
+| BK | 1  | Move Backward, argument is length to move. |
+| PU | 0  | Pen up, no arguments. |
+| PD | 0  | Pen down, no arguments. |
+| CLEAR | 0 | Clear the screen. |
+| HOME | 0 | Move to Home(starting) position.|
+| RESET | 0 | Reset everything, to initial. |
+| SPEED | 1 | Set the speed of the turtle, 0=Fastest, 1 to 10 = progressively faster.|
 
