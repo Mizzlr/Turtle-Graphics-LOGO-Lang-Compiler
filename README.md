@@ -100,7 +100,7 @@ Steps to use this repo
 
 * Download or clone this repo
 * Install `cmd2` python module with `python -m pip install cmd2`.
-* To run the program, do `cd /path/to/root/of/this/project ; python logo/runtime/repl.py`
+* To run the program, do `cd /path/to/root/of/this/project` and type `python logo/runtime/repl.py`
 
 The prompt pops up `logo[{count}]:>`
 
@@ -112,6 +112,24 @@ There is a sample code in [samples/polygon.logo](samples/polygon.logo).
 * Type `RESET` or `CLEAR` or `HOME`, to recenter, clear or move turtle to home position
 * Type `REPEAT 5 [ FD 100; RT (360 / 5) ]` to draw a pentagon
 * Type up arrow to see prev commands.
+* Type `SPEED 0` to set speed to fastest, or 1 to 10 to be progressively faster.
 * Type `exit` or `quit` to quit.
+
+Don't forget to try `FLOWER :PETALS :SIZE` to draw a flower, actually you seed to substitute values, for examples `FLOWER 30 100` or `FLOWER 90 100`.
+
+And note, the language is case insensitive, but capitals are prefered. So, `FLOWER` or `Flower` or `flower` are same. But the `load`, `hepl`, `quit` and `exit` should be in lower case. They are REPL command, and not executed by the runtime.
+
+For some adventure, try modifying the code in the sample file polygon.logo and reload it. To reload, just type `load samples/polygon.logo`, same as loading.
+
+# Some Snapshots
+
+Try `flower 30 100`
+
+![Flower](images/flower.png)
+
+Try `repeat 5 [ polygon 100 5; rt 72 ]`
+
+![Pentagons](images/pentagons.png)
+
 
 Happy Turtling ...
