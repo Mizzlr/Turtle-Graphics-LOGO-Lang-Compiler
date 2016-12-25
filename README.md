@@ -91,3 +91,5 @@ FD SQRT(100 * :SIDE + :SIDE)
 | RESET | 0 | Reset everything, to initial. |
 | SPEED | 1 | Set the speed of the turtle, 0=Fastest, 1 to 10 = progressively faster.|
 
+# Arithmetic Operators and Mathematical Functions
+All the basic arithmetic operators such as `+, -, *, /, %, ^` are supported. `%` is modulus and `^` exponentiation. Some inbuild math function are `SQRT(a)`, `MIN(a, b)`, `MAX(a, b)`, `RAND(a, b)`.
