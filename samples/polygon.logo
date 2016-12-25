@@ -1,0 +1,21 @@
+TO POLYGON :SIDE :CORNERS [
+    REPEAT :CORNERS [
+        FD :SIDE
+        RT (360 / :CORNERS)
+    ]
+]
+
+TO SQUARE :SIDE [
+    POLYGON :SIDE 4
+]
+
+TO HEXAGON :SIDE [
+    POLYGON :SIDE 6
+]
+
+to flower :petals :size[
+    repeat :petals [
+        rt (360 / :petals);
+        hexagon :size
+    ]
+]
