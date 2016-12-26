@@ -121,7 +121,7 @@ And note, the language is case insensitive, but capitals are prefered. So, `FLOW
 
 For some adventure, try modifying the code in the sample file polygon.logo and reload it. To reload, just type `load samples/polygon.logo`, same as loading.
 
-# Some Snapshots
+# Gallery
 
 Try `flower 30 100`
 
@@ -133,3 +133,12 @@ Try `repeat 5 [ polygon 100 5; rt 72 ]`
 
 
 Happy Turtling ...
+
+# Future Work
+
+* Add support for IF-THEN-ELSE construct
+* Add Boolean data type
+* Add Boolean expressions and relational expressions
+* Add Assignments of expressions to variables
+* Add Recursion of Procedures
+
